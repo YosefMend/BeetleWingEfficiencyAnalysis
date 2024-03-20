@@ -1,4 +1,6 @@
 load('W_Res.mat')
+
+% Beginning frames of each excel file
 frame = [3
     23
     30
@@ -23,6 +25,9 @@ frame = [3
     45
     16
     11];
+
+
+% End frame of each excel file
 
 Efr = [297
     218
@@ -50,6 +55,7 @@ Efr = [297
     145
     ];
 
+% Lift force recorded and calculated as per each excel file (Wing)
 Lift = [13.296
     13.330
     13.080
